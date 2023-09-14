@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
     background-image: url('img1.jpg');
     background-clip: content-box;
@@ -7,7 +12,8 @@ body {
     background-size: cover;
     height: max-content;
     color: white;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     justify-items: center;
