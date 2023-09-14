@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="Stylesheet" type="text/css" href="indexStyles.css">
 </head>
 <body>
-    <main id="main-holder">
+    <main id="main-holder" style="font-family: comfortaa;">
         <h1 id="login-header">Login</h1>
         
         <div id="login-error-msg-holder">
@@ -17,8 +20,8 @@
         <form id="login-form">
           <input type="text" name="username" id="username-field" class="login-form-field" placeholder="username">
           <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-          <input type="submit" value="Login" onclick="signInWithUsrname()">
-          <input type="submit" value="Sign up" onclick="gotoSignUp()">
+          <input type="submit" style="font-family: comfortaa;" value="Login" onclick="signInWithUsrname()">
+          <input type="submit" style="font-family: comfortaa;" value="Sign up" onclick="gotoSignUp()">
         </form>
       
       </main>
