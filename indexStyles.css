@@ -1,10 +1,9 @@
-#backgroundOverlay {
-    background-image:
-    linear-gradient(to left, rgba(71, 228, 228, 0.52), rgba(117, 19, 93, 0.73)),
-    url('img1.jpg');
+body {
+    background-image: url('img1.jpg');
     background-clip: content-box;
     background-repeat: no-repeat;
     background-size: cover;
+    height: max-content;
     color: white;
     padding: 20px;
 }
